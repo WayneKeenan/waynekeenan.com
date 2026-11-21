@@ -23,7 +23,8 @@ Separate repo because the wkdlabs.com Pages repo (`WKDLabs/wkdlabs.github.io`) c
 | `www` | CNAME | `waynekeenan.github.io.` |
 | `_github-pages-challenge-waynekeenan` | TXT | GitHub domain verification — keep it |
 
-Before this change the zone had only NS records and `www` CNAME `www.wkdlabs.com.`.
+Before this change the zone had only NS records and `www` CNAME `www.wkdlabs.com.`
+(API snapshot: `dns-before.json`).
 
 Managed with the Mythic Beasts DNS API v2. Credentials live in `~/.netrc`
 (`machine api.mythic-beasts.com login KEY_ID password SECRET`, chmod 600) — never in this repo.
